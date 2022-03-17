@@ -1,0 +1,118 @@
+.page {
+    margin: auto;
+    max-width: 1400px;
+}
+.section-text {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: normal;
+}
+.section-title {
+    font-size: 30px;
+}
+.position {
+    color: dodgerblue;
+    margin: 0;
+}
+.header {
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: dodgerblue;
+}
+.main-info {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: calc(100vw - 250px);
+}
+.content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-areas: 
+    "contacts job"
+    "about job"
+    "skills job"
+    "dop-info education";
+    gap: 15px;
+    column-gap: 30px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    grid-area: contacts;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    grid-area: about;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    grid-area: skills;
+}
+.dop-info {
+    display: flex;
+    flex-direction: column;
+    grid-area: dop-info;
+}
+.job {
+    display: flex;
+    flex-direction: column;
+    grid-area: job;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    grid-area: education;
+}
+.education-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+.years, .institution, .speciality {
+    margin: 0 20px 0 0;
+}
+.institution {
+    font-weight: bold;
+}
+.job-container {
+    display: flex;
+    align-content: flex-start;
+    width: max-content;
+}
+.job-description-container {
+    margin-left: 20px;
+}
+.link {
+    font-size: 18px;
+    color: dodgerblue;
+}
+.link:hover {
+    color: #65b3ff;
+}
+.job-title {
+    margin: 0;
+    font-size: 18px;
+}
+.job-speciality {
+    margin: 10px 0;
+    color: dodgerblue;
+    font-size: 18px;
+}
+.project-container {
+    margin: 20px 0;
+}
