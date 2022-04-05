@@ -55,6 +55,9 @@ body {
     flex-direction: column;
     grid-area: contacts;
 }
+.link {
+    text-decoration: none;
+}
 .about-me {
     display: flex;
     flex-direction: column;
