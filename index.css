@@ -142,4 +142,7 @@
     .job-container {
         width: fit-content;
     }
+    .name {
+        font-size: 30px;
+    }
 }
