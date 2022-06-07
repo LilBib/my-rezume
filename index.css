@@ -1,11 +1,14 @@
+@import url(./fonts/bebasneue.css);
+@import url(./fonts/stylesheet.css);
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Reem Kufi', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 15px 0 ;
 }
 .page {
     margin: auto;
     max-width: 1280px;
+    color: white;
 }
 .section-text {
     margin: 0;
@@ -16,22 +19,22 @@ body {
 .section-title {
     font-size: 30px;
 }
-.position {
-    color: dodgerblue;
+.name {
     margin: 0;
 }
+.position {
+    margin: 10px 0;
+}
 .header {
+    color: white;
+    font-family: 'Bebas Neue', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     border-bottom: 1px solid grey;
     padding: 20px 0;
+    background-color: #AE3842;
 }
 .photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    object-fit: cover;
-    border-style: solid;
-    border-color: dodgerblue;
+    width: 250px;
     align-self: center;
 }
 .main-info {
@@ -39,24 +42,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: calc(100vw - 250px);
 }
+.icon_link {
+    display: block;
+    margin: 0 10px;
+}
 .content {
+    padding: 0 15px;
+    background-color: black;
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-areas: 
-    "contacts job"
-    "about job"
     "skills job"
-    "dop-info education";
+    "education job"
+    "dop-info job";
     gap: 15px;
     column-gap: 30px;
 }
 .contacts {
     display: flex;
-    flex-direction: column;
-    grid-area: contacts;
+    flex-direction: row;
 }
 .link {
     text-decoration: none;
@@ -147,17 +154,17 @@ body {
         padding-left: 5px;
     }
     .main-info {
-        margin-left: 15px;
+        margin: 0;
+        width: calc(100vw - 200px);
     }
     .job-container {
         width: fit-content;
     }
     .name {
+        color: white;
         font-size: 30px;
     }
     .photo {
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
+        width: 150px;
     }
 }
