@@ -35,7 +35,12 @@ body {
 }
 .photo {
     width: 250px;
+    height: 250px;
+    margin-left: 10px;
     align-self: center;
+    border-radius: 125px;
+    border: solid;
+    border-color: black;
 }
 .main-info {
     margin-left: 30px;
@@ -97,10 +102,17 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    justify-content: flex-start;
+
 }
-.years, .institution, .speciality {
+.years, .institution {
     margin: 0 20px 0 0;
+    width: max-content;
+}
+.institution {
+    width: 133px;
+}
+.years {
+    min-width: 85px;
 }
 .institution {
     font-weight: bold;
@@ -165,6 +177,12 @@ body {
         font-size: 30px;
     }
     .photo {
-        width: 150px;
+        width: 124px;
+        height: 124px;
+        border-radius: 62px;
+    }
+    .institution {
+        min-width: 130px;
+        max-width: 130px;
     }
 }
