@@ -2,12 +2,16 @@
 @import url(./fonts/stylesheet.css);
 body {
     font-family: 'Reem Kufi', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 15px 0 ;
+    margin: 0 auto;
+    padding: 0 ;
+    background-color: black;
+    width: 1320px;
+    height: 1754px;
 }
+
 .page {
     margin: auto;
-    max-width: 1280px;
+    width: 100%;
     color: white;
 }
 .section-text {
@@ -26,6 +30,8 @@ body {
     margin: 10px 0;
 }
 .header {
+    
+    width: 100%;
     color: white;
     font-family: 'Bebas Neue', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
