@@ -60,10 +60,10 @@ body {
     margin: 0 10px;
 }
 .content {
-    padding: 0 15px;
+    padding: 0 0 0 15px;
     background-color: black;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 35% calc(65%-15px);
     grid-template-areas: 
     "skills job"
     "education job"
