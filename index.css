@@ -63,7 +63,7 @@ body {
     padding: 0 0 0 15px;
     background-color: black;
     display: grid;
-    grid-template-columns: 35% calc(65%-15px);
+    grid-template-columns: 35% 60%;
     grid-template-areas: 
     "skills job"
     "education job"
