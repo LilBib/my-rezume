@@ -19,6 +19,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     white-space: normal;
+    max-width: 100%;
 }
 .section-title {
     font-size: 30px;
@@ -191,4 +192,7 @@ body {
         min-width: 130px;
         max-width: 130px;
     }
+}
+ul {
+    max-width: 50%;
 }
