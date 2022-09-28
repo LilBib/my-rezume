@@ -2,11 +2,9 @@
 @import url(./fonts/stylesheet.css);
 body {
     font-family: 'Reem Kufi', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
-    padding: 0 ;
+    padding: 0;
+    margin: 0;
     background-color: black;
-    width: 1320px;
-    height: 1754px;
 }
 
 .page {
@@ -152,6 +150,11 @@ body {
     margin: 20px 0;
 }
 @media screen and (max-width:500px) {
+    .body {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
     .content {
         display: grid;
         grid-template-columns: 1fr;
@@ -170,7 +173,8 @@ body {
     }
     .page {
         max-width: 380px;
-        padding-left: 5px;
+        padding-left: 40px;
+        padding-bottom: 15px;
         margin: 0;
     }
     .main-info {
