@@ -171,6 +171,7 @@ body {
     .page {
         max-width: 380px;
         padding-left: 5px;
+        margin: 0;
     }
     .main-info {
         margin: 0;
@@ -193,6 +194,6 @@ body {
         max-width: 130px;
     }
 }
-ul {
+.project-list {
     max-width: 50%;
 }
