@@ -63,7 +63,7 @@ body {
     padding: 0 15px;
     background-color: black;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 35% 55%;
     grid-template-areas: 
     "skills job"
     "education job"
@@ -125,7 +125,6 @@ body {
 .job-container {
     display: flex;
     align-content: flex-start;
-    width: max-content;
 }
 .job-description-container {
     margin-left: 20px;
